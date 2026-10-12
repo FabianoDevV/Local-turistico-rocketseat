@@ -1,0 +1,160 @@
+:root {
+  --background-default: #f5f4f0;
+  --border-primary: #d9d9d9;
+
+  --text-primary: #1b1b1b;
+  --text-secondary: #333333;
+  --text-tertiary: #696969;
+  --text-headline: #e1624f;
+
+  --accent-blue: #0c51a7;
+  --accent-orange: #e95e10;
+  --accent-pink: #e5245e;
+  --accent-purple: #591b98;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.content,
+footer {
+  max-width: 1120px;
+  margin: 40px auto;
+}
+
+/* Titulos */
+
+.hero-section .header .header-tagline {
+  color: var(--text-headline);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.hero-section .header .header-title {
+  margin-top: 5px;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+/* Imagem busan / texto de resumo */
+
+.hero-section .content-summary {
+  margin: 40px 0;
+}
+
+.hero-section .content-summary .summary {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* historia de busan */
+
+.about .content-about {
+  margin: 64px 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about .content-about .about-tagline {
+  color: var(--text-headline);
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about .content-about .about-title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+
+.about .content-about .about-description {
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: normal;
+  margin: 8px 0 0;
+}
+
+/* card de destinos para conhecer */
+
+.cards-destination {
+  max-width: 1120px;
+}
+
+.cards-destination .card-numeric {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 20px;
+}
+
+.card .content-card li {
+  font-size: 28px;
+  font-weight: bold;
+  margin: auto 1.9rem;
+  color: var(--text-primary);
+}
+
+.card .content-card li .card-title {
+  margin: 9px 0;
+}
+
+.card .content-card .card-description {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 16px;
+}
+
+.card .card-tags .card-title-tag {
+  margin: 15px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--text-secondary);
+}
+
+.card-tags ul {
+  padding-left: 25px;
+}
+
+.accent-blue,
+.accent-orange,
+.accent-pink,
+.accent-purple {
+  list-style-type: disc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.accent-blue {
+  color: var(--accent-blue);
+}
+.accent-orange {
+  color: var(--accent-orange);
+}
+.accent-pink {
+  color: var(--accent-pink);
+}
+.accent-purple {
+  color: var(--accent-purple);
+}
+
+.about .considerations-final {
+  text-align: center;
+  color: var(--text-secondary);
+  font-size: 16px;
+  margin: 70px 0 10px;
+}
+
+/* Final da pagina / footer */
+
+footer {
+  text-align: center;
+  color: var(--text-secondary);
+}
